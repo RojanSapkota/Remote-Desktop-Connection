@@ -25,4 +25,3 @@ This repository uses GitHub Actions to automatically create a remote desktop con
 
 ### Contributing:
 Feel free to submit pull requests or open issues for improvements or bug fixes.
-
