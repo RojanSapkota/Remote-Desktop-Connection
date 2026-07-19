@@ -1,11 +1,13 @@
 # Remote Desktop Connection via GitHub Actions
 
-This repository uses GitHub Actions to automatically create a remote desktop connection via Ngrok, allowing secure access to a Windows environment. Each GitHub Action execution generates an Ngrok tunnel that lasts for approximately 1 hour, enabling RDP (Remote Desktop Protocol) access.
+> **Note:** This repository is archived for reference purposes. The executable GitHub Actions workflow has been removed, so this repository no longer provides a runnable Remote Desktop workflow.
 
-### Key Features:
-- **Automated Setup**: Uses GitHub Actions to set up and configure a remote desktop session.
-- **Secure Tunnel**: Ngrok provides a secure tunnel for RDP access.
-- **Quick Access**: Each session lasts about 1 hour, with easy reconnection using the IP provided by Ngrok.
+This repository originally demonstrated how GitHub Actions could be used to create a remote desktop connection via Ngrok, allowing secure access to a Windows environment. The workflow has been retained only as a reference and is no longer executed by GitHub Actions.
+
+### Key Features (Original Project)
+- **Automated Setup**: Demonstrated configuring a remote desktop session using GitHub Actions.
+- **Secure Tunnel**: Used Ngrok to provide a secure tunnel for RDP access.
+- **Quick Access**: Sessions typically lasted about one hour when the workflow was active.
 
 <h2 align="left">👤 Repo Visitors:</h2>
 <p align="left">
@@ -14,14 +16,12 @@ This repository uses GitHub Actions to automatically create a remote desktop con
 </a>
 </p>
 
-### Installation & Setup:
-1. Fork the repository.
-2. Replace the `NGROK_AUTH_TOKEN` in the GitHub Actions workflow file with your Ngrok authentication token.
-3. Set the `NGROK_AUTH_TOKEN` in GitHub by adding it as an environment variable in your repository’s secrets.
-   - Go to **Settings > Secrets > Actions** in your GitHub repo and add a new secret named `NGROK_AUTH_TOKEN`.
-4. Trigger the GitHub Action by pushing any change or using the **workflow_dispatch** event.
-5. Once the action runs successfully, Ngrok will provide an IP address and port.
-6. Use Remote Desktop Connection to connect to the provided IP and port.
+### Status
 
-### Contributing:
-Feel free to submit pull requests or open issues for improvements or bug fixes.
+- The `.github/workflows` directory has been removed.
+- GitHub Actions are no longer configured for this repository.
+- `Workflow.yml` is included for reference only and is **not** executed by GitHub.
+
+### Contributing
+
+This repository is archived and is no longer under active development.
